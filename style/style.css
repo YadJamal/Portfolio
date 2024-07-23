@@ -1,0 +1,102 @@
+body{
+    background-color: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 720px;
+}
+button{
+    background-color: #none;
+    color: white;
+    border:none;
+    
+}
+
+#intro {
+    text-align: center; /* Center-aligns the text inside the div */
+    margin: 0 auto;     /* Centers the div horizontally if it has a width set */
+    padding: 20px;      /* Adds padding for spacing (adjust as needed) */
+    max-width: 600px;   /* Optional: Limits the width of the div for better readability */
+}
+#hand{
+    font-size:27px;
+    position:absolute;
+    margin-top: -50px;
+    margin-left: -20px;
+    opacity: 0;                   /* Start with the text invisible */
+    transform: translateY(20px); /* Start with the text slightly below its final position */
+    animation: fadeInUp 0.5s ease-out forwards; /* Apply the fadeInUp animation */
+}
+
+#welc{
+    font-weight: 100;
+    margin-bottom:0px ;
+    margin-top: 100px;
+    opacity: 0;                   /* Start with the text invisible */
+    transform: translateY(20px); /* Start with the text slightly below its final position */
+    animation: fadeInUp 1s ease-out forwards; /* Apply the fadeInUp animation */
+
+}
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;               /* Fully transparent */
+        transform: translateY(20px); /* Start below its final position */
+    }
+    100% {
+        opacity: 1;               /* Fully opaque */
+        transform: translateY(0); /* End at its final position */
+    }
+}
+#disc{
+    margin-top: 0px;
+    opacity: 0;                   /* Start with the text invisible */
+    transform: translateY(20px); /* Start with the text slightly below its final position */
+    animation: fadeInUp 1.5s ease-out forwards; /* Apply the fadeInUp animation */
+}
+#resumeb{
+    justify-content: center;
+    gap: px;
+    background-color: #1C5BED;
+    width: 130px;
+    text-align: center;
+    display: inline-flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    opacity: 0;                   /* Start with the text invisible */
+    transform: translateY(20px); /* Start with the text slightly below its final position */
+    animation: fadeInUp 2s ease-out forwards; /* Apply the fadeInUp animation */
+}
+
+#projects{
+padding-top: 150px;
+text-align: center;
+
+}
+#projects h1{
+    font-size: 20px;
+    text-align: center;
+    opacity: 0;                   /* Start with the text invisible */
+    transform: translateY(20px); /* Start with the text slightly below its final position */
+    animation: fadeInUp 1.5s ease-out forwards; /* Apply the fadeInUp animation */
+}
+#projects p{
+    opacity: 0;                   /* Start with the text invisible */
+    transform: translateY(20px); /* Start with the text slightly below its final position */
+    animation: fadeInUp 2s ease-out forwards; /* Apply the fadeInUp animation */
+}
+#contact{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+#contact button img{
+    text-align: center;
+    background-color: transparent;
+    width: 12px;
+}
+footer{
+    text-align: center;
+    font-size: 10px;
+    padding-bottom: 1px;
+}
